@@ -33,8 +33,8 @@ Note : Make sure Neo4J DB is running locally.
     pip install -r requirements.txt
     ```
    
-4. Run 'K-NN' Algorithm on Graph
+4. Let's start the debate
 
    ```bash
-   python run_k_nn_algo.py
+   python run_debate.py
    ```
