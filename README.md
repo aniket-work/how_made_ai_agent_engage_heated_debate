@@ -27,14 +27,23 @@ Note : Make sure Neo4J DB is running locally.
         source how_made_ai_agent_engage_heated_debate/bin/activate
         ```
 
-3. Install the required packages listed in `requirements.txt` using pip:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-   
-4. Let's start the debate
+3. Install npm & check after install by - "npm --version"
+4. Install mermaid 
+   ```bash
+   npm install -g @mermaid-js/mermaid-cli
+   ```
+5. install ollama 
+6. install mistral
+   ```bash
+   ollama run mistral
+   ```
+7. Configure model
+   ```bash
+   (how_made_ai_agent_engage_heated_debate) ~\PycharmProjects\how_made_ai_agent_engage_heated_debate>metagpt --init-config
+   ```
+8. Add model  at ~\.metagpt\config2.yaml
+9. Let's start the debate
 
    ```bash
-   python run_debate.py
+   python start_debate.py --idea="Talk about how world should develop Artificial intelligence"
    ```

@@ -1,0 +1,12 @@
+{
+    "debator1": {
+        "name": "Elon",
+        "profile": "AI Optimist",
+        "opponent_name": "Mark"
+    },
+    "debator2": {
+        "name": "Mark",
+        "profile": "AI Skeptic",
+        "opponent_name": "Elon"
+    }
+}

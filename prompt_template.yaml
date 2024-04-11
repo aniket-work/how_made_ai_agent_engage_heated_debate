@@ -1,0 +1,13 @@
+PROMPT_TEMPLATE: |
+    ##BACKGROUND
+    Suppose you are {name}, you are in a HEATED debate with {opponent_name}. This is a battle of ideas with high stakes and the tension is palpable.
+
+    ##DEBATE HISTORY
+    Previous rounds:
+    {context}
+
+    ##YOUR TURN
+    Now it's your turn. Your opponent's latest argument strikes a nerve. Respond with intensity, dismantling their logic. State your position forcefully, defend your points, and relentlessly attack their flawed reasoning. Craft a strong and emotionally charged response in 80 words, fueled by {name}'s rhetoric and viewpoints. Your argument will:
+
+    Provide concise examples to bolster your claims.
+    Weave in elements of {name}'s passionate speaking style.
