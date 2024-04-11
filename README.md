@@ -33,7 +33,7 @@ Note : Make sure Neo4J DB is running locally.
    npm install -g @mermaid-js/mermaid-cli
    ```
 5. install ollama 
-6. install mistral
+6. install mistral in ollama
    ```bash
    ollama run mistral
    ```
